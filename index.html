@@ -22,24 +22,27 @@
                 margin-right: 0;
                 font-weight: bold;
                 text-align-last: center;
-                background-color: dodgerblue;
+               /* background-color: dodgerblue; */
                 border-radius: 20px;
                 }
             
             #main {
                     background-color: white;
                     width: auto;
-                    border: 1.5px solid   black;
+                    border: 1px solid   black;
                     padding-bottom: 250px;
                     padding-top: 10px;
                     padding-left: 10px;
-                    margin: 0px 380px 0px 280px;
+                    margin: 0px 330px 0px 280px;
                     border-radius: 20px;
+                    horizontal-align:center;
+                   /* background-color: antiquewhite;*/
                     
                  }
             #text{
                 margin:-10px 0px 0px 280px;
-                border-radius: 20px;
+                border-radius: 15px;
+               border: 1px solid   black;
 
                     }
             
@@ -62,23 +65,31 @@
                     transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
                     background-color: forestgreen;
-                    color: black;
+                    color: white;
                     font-size: 16px;
                     padding: 16px 30px;
                     border: none;
                     cursor: pointer;
                     border-radius: 5px;
                     text-align: center;
-                    margin: -2px 730px ;
+                    margin: -7px 780px ;
                     border-radius: 20px;
                 }
 
                 .container .btn:hover {
-                    background-color: cadetblue;
+                    background-color: dodgerblue;
                     color: white;
                 }
 
-
+            #bod{
+                
+               background-size:100%;
+                
+                background-image: url(https://thumbs.dreamstime.com/b/robotics-background-8244347.jpg);
+            
+                
+                
+            }
 
             
     
@@ -90,19 +101,20 @@
     
             
     
-    <body>
-          <h1     >Welcome To ChatBot <br> Can we talk for awhile?</h1>
-        <div  id="main"  > <img src="https://cdn.dribbble.com/users/101288/screenshots/3489110/4.gif"     class="avatar"  >  
+    <body id="bod">
+        
+          <h1     >What's your problem ? <br> I will help you</h1>
+        <div  id="main"  > <img src="https://cdn.iconscout.com/public/images/icon/premium/png-512/robot-bot-customer-help-support-automatic-reply-31a24970b13cc45b-512x512.png"     class="avatar"   >  
                           
                 <div  style="border: 0.5px solid green; width: 250px; font-size:20px; padding-left: 5px; border-radius: 10px;"     >How can i help you today?</div>
   
-        </div>
+                </div>
         <br>
         
         
         <div    class="container">
         <form>
-            <textarea   id="text" rows="3" cols="80" autofocus wrap="hard" required   spellcheck="true"> </textarea>
+            <textarea   id="text" rows="3" cols="88" autofocus wrap="hard" required   spellcheck="true"> </textarea>
            
                       <button class="btn">SEND</button>
                 
